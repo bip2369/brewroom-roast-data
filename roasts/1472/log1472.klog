@@ -1,0 +1,95 @@
+log_file_name:kaffelogic/roast-logs/log1472.klog
+profile_file_name:Adaptive_Raost_NCC.kpro
+profile_short_name:Adap. Raost NCC
+profile_designer:benjaminfleon
+profile_modified:14/04/2024 19:41:03 UTC
+profile_schema_version:1.8
+roasting_level:3.20000
+boost_load_size:50.0000
+boost_load_fan_multiplier:0.812359
+boost_load_power_multiplier:0.812359
+roast_date:12/12/2025 15:53:35 UTC
+time_jump:2.39048
+preheat_heater_percent:27.7960
+ambient_temperature:24.2500
+mains_voltage:226.772V, 50.5000Hz
+heater_power_available:1490.51
+power_factor:0.960227
+density_factor:0.985702
+reference_temperature:26.3750
+back2back_count:0.00000
+model:KN1007B/E/C230551173
+motor_hours:205.656
+heater_hours:124.128
+calibration_data:fan=1.01000,v=1.00200,ohm=1.01500
+firmware_version:7.20.6
+emulation_mode:0.00000
+recommended_level:3.20000
+expect_fc:208.000
+expect_colrchange:170.000
+reference_load_size:100.0000
+preheat_power:510.000
+preheat_nominal_temperature:240.000
+preheat_min_power_offset:0.00000
+preheat_min_time:20.0000
+preheat_max_time:60.0000
+preheat_check_gradient_time:30.0000
+preheat_target_in_future:30.0000
+preheat_mode:5.00000
+preheat_end_detection_count:5.00000
+preheat_temperature_proximity:8.50000
+roast_required_power:1000.000
+roast_min_desired_rate_of_rise:4.00000
+roast_target_in_future:25.0000
+roast_use_prediction_method:1.00000
+roast_target_timeshift:1.00000
+roast_end_by_time_ratio:1.00000
+roast_PID_Kp:0.717200
+roast_PID_Ki:0.00000
+roast_PID_Kd:3.55000
+roast_PID_min_i:0.00000
+roast_PID_max_i:0.00000
+roast_PID_iLimitApplyAtZero:1.00000
+roast_PID_differentialOnError:1.00000
+specific_heat_adj_upper_temperature_limit:180.000
+specific_heat_adj_lower_temperature_limit:80.0000
+specific_heat_adj_multiplier_Kp:2.10000
+specific_heat_adj_multiplier_Kd:4.00000
+zone1_time_start:0.00000
+zone1_time_end:0.00000
+zone1_multiplier_Kp:1.00000
+zone1_multiplier_Kd:1.00000
+zone1_boost:0.00000
+zone2_time_start:0.00000
+zone2_time_end:0.00000
+zone2_multiplier_Kp:1.00000
+zone2_multiplier_Kd:1.00000
+zone2_boost:0.00000
+zone3_time_start:0.00000
+zone3_time_end:0.00000
+zone3_multiplier_Kp:1.00000
+zone3_multiplier_Kd:1.00000
+zone3_boost:0.00000
+corner1_time_start:0.00000
+corner1_time_end:0.00000
+cooldown_hi_speed:17000.0
+cooldown_lo_speed:16000.0
+cooldown_lo_temperature:100.0000
+roast_levels:214.900,216.500,218.000,219.500,222.000,224.000,227.100
+roast_profile:0.00000,20.0000,0.00000,0.00000,44.9973,100.0000,494.970,222.000,254.985,222.000,509.969,222.000,539.968,222.000,524.969,222.000,0.00000,0.00000
+fan_profile:0.00000,14700.0,0.00000,0.00000,0.099994,14700.0,304.982,14200.0,64.9961,14200.0,399.976,14200.0,599.964,14200.0,569.966,14200.0,0.00000,0.00000
+
+offsets	-8.5	-8.75	-12.0	0	0	-19.5	-8.75	-8.5	-8.5	-8.5	-8.5	-8.5	-8.5
+time	#spot_temp	#=temp	=mean_temp	=profile	profile_ROR	=actual_ROR	#=desired_ROR	power_kW	#volts-9	#Kp	#Ki	#Kd	#^actual_fan_RPM
+2.54648	25.2500	25.4250	25.4768	24.2903	96.1837	0.210435	81.0687	0.414303	6.59385	0.723489	0.00000	3.00000	11941.7	
+3.54648	25.2500	25.5000	25.4804	25.8683	92.9492	0.244531	83.4942	0.414303	4.64439	0.723489	0.00000	3.00000	11941.7	
+4.54648	26.0000	25.6063	25.4790	27.3879	90.0865	0.268917	85.8417	0.414303	3.02170	0.723489	0.00000	3.00000	11941.7	
+5.54648	26.2500	25.5500	25.5228	28.8703	87.5030	0.322824	87.9631	0.414303	1.80795	0.723489	0.00000	3.00000	11941.7	
+6.54648	26.0000	26.4375	25.6183	30.3072	85.1739	0.514007	89.8532	0.414303	1.53020	0.723489	0.00000	3.00000	11941.7	
+7.54648	27.9688	27.4250	25.8442	31.7128	83.0442	1.00106	91.2950	0.414303	1.54033	0.723489	0.00000	3.00000	11941.7	
+8.54648	29.4375	28.1562	26.1991	33.0787	81.1015	1.91836	92.3168	0.414303	1.57115	0.723489	0.00000	3.00000	11941.4	
+9.54648	29.6875	29.6313	26.7826	34.4119	79.3144	3.54459	92.6205	0.414303	1.63723	0.723489	0.00000	3.00000	11935.8	
+10.5465	31.1562	30.3625	27.4455	35.7195	77.6568	5.84548	92.7161	0.414303	1.55507	0.723489	0.00000	3.00000	11930.5	
+11.5465	32.4062	31.8062	28.3179	37.0010	76.1160	9.02768	92.1943	0.414303	1.58776	0.723489	0.00000	3.00000	11925.4	
+12.5465	34.1250	33.2938	29.3665	38.2560	74.6809	13.1936	91.1915	0.414303	1.59753	0.723489	0.00000	3.00000	11920.6	
+13.5465	34.8750	34.9875	30.5647	39.4918	73.3333	18.3451	89.7893	0.414303	1.63315	0.723489	0.00000	3.00000	11915.8	
