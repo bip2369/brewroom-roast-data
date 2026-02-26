@@ -1,6 +1,87 @@
 {
   "version": 1,
   "beans": [],
-  "profiles": [],
+  "profiles": [
+    {
+      "id": "p9559610",
+      "name": "C2C 50g High",
+      "description": "Standard Cupping Evaluation designed by Erinn Buhyoff for Crop to Cup Coffee Importers. \\vNext day cupping profile for 50g batch size setting using boost at roast level 2.0 for beans with a density greater than 820g/L. Our readings were taken with a Lighttells MD500.",
+      "designer": "ErinnBuhyoff",
+      "fcTemp": 208,
+      "ccTemp": 170,
+      "dropTemp": 213.9,
+      "dropTime": 373,
+      "_dropTimeV": 2,
+      "recommendedLevel": 2,
+      "dir": "profiles/C2C_50g_High",
+      "files": [
+        "C2C_50g_High.kpro"
+      ],
+      "sourceFileName": "C2C 50g High.kpro",
+      "uploadedAt": "2026-02-26",
+      "notes": "",
+      "tag": ""
+    },
+    {
+      "id": "p9567531",
+      "name": "C2C 50g Low Mod",
+      "description": "Standard Cupping Evaluation designed by Erinn Buhyoff for Crop to Cup Coffee Importers. \\vNext day cupping profile for 50g batch size setting using boost at roast level 2.0 for beans with a density less than 790g/L. Our readings were taken with a Lighttells MD500.",
+      "designer": "ErinnBuhyoff",
+      "fcTemp": 200,
+      "ccTemp": 153,
+      "dropTemp": 213.9,
+      "dropTime": 360,
+      "_dropTimeV": 2,
+      "recommendedLevel": 2,
+      "dir": "profiles/C2C_50g_Low_Mod",
+      "files": [
+        "C2C_50g_Low_Modified.kpro"
+      ],
+      "sourceFileName": "C2C 50g Low Modified.kpro",
+      "uploadedAt": "2026-02-26",
+      "notes": "",
+      "tag": ""
+    },
+    {
+      "id": "p9576392",
+      "name": "C2C 50g Medium",
+      "description": "Standard Cupping Evaluation designed by Erinn Buhyoff for Crop to Cup Coffee Importers. \\vNext day cupping profile for 50g batch size setting using boost at roast level 2.0 for beans with a density 790-820g/L. Our readings were taken with a Lighttells MD500.",
+      "designer": "ErinnBuhyoff",
+      "fcTemp": 208,
+      "ccTemp": 170,
+      "dropTemp": 213.9,
+      "dropTime": 373,
+      "_dropTimeV": 2,
+      "recommendedLevel": 2,
+      "dir": "profiles/C2C_50g_Medium",
+      "files": [
+        "C2C_50g_Medium.kpro"
+      ],
+      "sourceFileName": "C2C 50g Medium.kpro",
+      "uploadedAt": "2026-02-26",
+      "notes": "",
+      "tag": ""
+    },
+    {
+      "id": "p9586763",
+      "name": "JRoast v7 YN1",
+      "description": "Faster preheat profile,high fan with extended maillard for better uniformity and development of beans. This should highlight flavors better and provide good sweetness with a balanced acidity.\\vBoost adapted profile, light roast, default is good for both juicy filter and modern espresso. (I would recommend doses between 90g-150g)\\vProfile works best with high altitude dense beans but should work well with everything.\\v\\vNegative boost zone works best with highly exotermic beans (washed kenyans, natural etiopians etc.) while it does nothing to anaerobic  and/or medium dense beans.\\v\\vDefault settings for the profile is recommended to reach FC between 204-205 degrees (5:20) and aim for a 1min sec dev time for most beans (adjust depending on bean characteristics, go longer for etiopians for example). 6:22 roast time\\v- This should yield about an ~100 JAgtron reading on the Roast Meter. This would be consider an more developed/washed/light (level 2.7)\\v- For a very light profile the dev can be up to 40sec leading to an 5:57 roast time. (level 1.0) - 110JAgtron - (perfect for naturals)\\v- You can go to 0.7 on an anaerobic for 120 JAgtron\\v\\vRule of thumb (improvements to get the most out of your bean)\\v- start with default 2.0 setting, test cup and then experiment with the bean for more or less development.\\v- check for agitation \\v  - at the start of the roast the beans should be moving/bouncing rapidly, \\v  - at the end the beans should have a steady flow of circulation, not overly jumping and mixing to fast) \\v  - adjust +/- 5 in the fan transform of the profile to adjust perfect fan speed for each type of bean\\v\\vThe profile is set to end the roast at the specific time interval and not temperature, the temperature should follow the line pretty well. (if this does not happen, adjust preheat value and/or fan profile and/or lower dose)\\v\\vWARNING! This is still an experimental profile! Feel free to share your results and opinions!",
+      "designer": "Justin",
+      "fcTemp": 190,
+      "ccTemp": 147,
+      "dropTemp": 208.2,
+      "dropTime": 448,
+      "_dropTimeV": 2,
+      "recommendedLevel": 0.1,
+      "dir": "profiles/JRoast_v7_YN1",
+      "files": [
+        "JRaost_v7YN1.kpro"
+      ],
+      "sourceFileName": "JRaost_v7YN1.kpro",
+      "uploadedAt": "2026-02-26",
+      "notes": "",
+      "tag": ""
+    }
+  ],
   "logs": []
 }
